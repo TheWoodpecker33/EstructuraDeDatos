@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\admin\documents\sony2\listasimplementeenlazada\main.cpp
+	<iostream>
+
+1552949581 source:c:\users\admin\documents\sony2\listasimplementeenlazada\src\nodo.cpp
+	"Nodo.h"
+
+1552949581 c:\users\admin\documents\sony2\listasimplementeenlazada\include\nodo.h
+
