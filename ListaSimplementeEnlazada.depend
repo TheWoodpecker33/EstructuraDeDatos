@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1514140574 source:c:\users\admin\documents\sony2\listasimplementeenlazada\main.cpp
+1553287779 source:c:\users\admin\documents\sony2\listasimplementeenlazada\main.cpp
 	<iostream>
+	"Menu.h"
+	"Nodo.h"
+	"Lista.h"
 
 1552949581 source:c:\users\admin\documents\sony2\listasimplementeenlazada\src\nodo.cpp
 	"Nodo.h"
@@ -26,5 +29,18 @@
 	"Menu.h"
 
 1553226826 /home/woodpecker/Documents/Github/EstructuraDeDatos/include/Menu.h
+	<iostream>
+
+1553287853 source:c:\users\admin\documents\sony2\listasimplementeenlazada\src\lista.cpp
+	"Lista.h"
+
+1553182238 c:\users\admin\documents\sony2\listasimplementeenlazada\include\lista.h
+	<iostream>
+	"Nodo.h"
+
+1553286782 source:c:\users\admin\documents\sony2\listasimplementeenlazada\src\menu.cpp
+	"Menu.h"
+
+1553285582 c:\users\admin\documents\sony2\listasimplementeenlazada\include\menu.h
 	<iostream>
 

@@ -3,7 +3,7 @@
 Lista::Lista()
 {
     cabecera = nullptr;
-    actual = nullptr;
+    actual = cabecera;
 }
 
 bool Lista::listaVacia()
@@ -16,12 +16,14 @@ bool Lista::insertarInicio(Nodo* nuevo)
     if(listaVacia())
     {
         cabecera = nuevo;
+        actual = cabecera;
         return true;
     }
     else
     {
         nuevo->newSig(cabecera);
         cabecera = nuevo;
+        actual = cabecera;
         return true;
     }
     return false;
@@ -32,6 +34,7 @@ bool Lista::insertarFinal(Nodo* nuevo)
     if(listaVacia())
     {
         cabecera = nuevo;
+        actual = cabecera;
         return true;
     }
     else
@@ -104,9 +107,13 @@ bool Lista::buscar(char dato)
 
 bool Lista::avanzar()
 {
-    if(!listaVacia())
+    if(!listaVacia() && actual != nullptr)
     {
         actual = actual->getSig();
+        if(actual == nullptr)
+        {
+            return false;
+        }
         return true;
     }
     else
@@ -117,9 +124,12 @@ bool Lista::avanzar()
 
 bool Lista::mostrar()
 {
-    if(!listaVacia())
+    if(!listaVacia() && actual != nullptr)
     {
-        cout << actual->getChar() << endl;
+        if(actual)
+        {
+            cout << actual->getChar() << endl;
+        }
         return true;
     }
     else

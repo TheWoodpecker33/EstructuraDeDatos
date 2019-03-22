@@ -14,6 +14,7 @@ int Menu::mainmenu()
     cout << "5.- Avanzar" << endl;
     cout << "6.- Mostrar Todos" << endl;
     cout << "7.- Limpiar Lista" << endl;
+    cout << "8.- Salir" << endl;
     cout << "--: ";
     cin >> opc;
 
@@ -22,8 +23,8 @@ int Menu::mainmenu()
 
 int Menu::addMenu()
 {
-    cout << "1.- Al Inicio" << endl;
-    cout << "2.- Al Final" << endl;
+    cout << "1.- Al Final" << endl;
+    cout << "2.- Al Inicio" << endl;
     cout << "--: ";
     cin >> opc;
 
