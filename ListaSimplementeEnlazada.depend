@@ -7,3 +7,24 @@
 
 1552949581 c:\users\admin\documents\sony2\listasimplementeenlazada\include\nodo.h
 
+1553225701 source:/home/woodpecker/Documents/Github/EstructuraDeDatos/main.cpp
+	<iostream>
+
+1553225701 source:/home/woodpecker/Documents/Github/EstructuraDeDatos/src/Lista.cpp
+	"Lista.h"
+
+1553225701 /home/woodpecker/Documents/Github/EstructuraDeDatos/include/Lista.h
+	<iostream>
+	"Nodo.h"
+
+1553225701 /home/woodpecker/Documents/Github/EstructuraDeDatos/include/Nodo.h
+
+1553225701 source:/home/woodpecker/Documents/Github/EstructuraDeDatos/src/Nodo.cpp
+	"Nodo.h"
+
+1553226998 source:/home/woodpecker/Documents/Github/EstructuraDeDatos/src/Menu.cpp
+	"Menu.h"
+
+1553226826 /home/woodpecker/Documents/Github/EstructuraDeDatos/include/Menu.h
+	<iostream>
+
